@@ -6,7 +6,9 @@ GHCFLAGS = -Wall
 TARGET = main
 
 # Source file
-SOURCE = main.hs trie.hs
+SOURCE = Main.hs Trie.hs Regex.hs
+
+build: $(TARGET)
 
 # Default target
 all: $(TARGET)
